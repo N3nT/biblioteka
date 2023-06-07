@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-weight: 400;
+}
+form{ /*formularz*/
+    border: 1px solid lightgray;
+    position: absolute;
+    transform: translate(0, -50%);
+    text-align: center;
+    background-color: #fff;
+    width: 500px;
+    top: 45%;
+}
+#log_form{/*formularz logowania*/
+    height: 530px;    
+}
+#reg_form{/*formularz rejestracji*/
+    height: 700px;    
+}
+input{
+    margin: 10px;
+}
+/*.books{przyklady ksiazek
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    top: 30%;                    
+    transform: translate(0, -30%);
+    left: 30%;
+}*/
+.logo{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    left: 6%;
+}
+.log_input{ /*inputy do zalogowania*/
+    min-width: 70%;
+    transition: 0.3s;
+    height: 20px;
+    height: 30px;
+}
+.log_input:focus{ /*inputy do zalogowania*/
+    background-color: rgb(243, 243, 243);
+    transform: translate(10px, 0);
+}
+
+#change_form{ /*div/ prziekierowanie do rejestracji*/
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 66%;                    
+    transform: translate(0, -50%);
+    min-width: 287px;
+    text-align: center;
+    display: block;
+}
+#change_form a{
+    color: #3897f0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#change_form a:hover{
+    color: #2782d8;
+    font-weight: 600;
+}
+#log_in{ /*przycisk zaloguj*/
+    min-width: 70%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    height: 50px;
+    margin-top: 30px;
+}
+#log_in:hover{
+    background-color: #2782d8;
+}
